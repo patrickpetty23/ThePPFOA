@@ -1,0 +1,60 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.rounded-img {
+    width: 400px;
+    height: auto; /* This ensures that the aspect ratio is maintained */
+    border-radius: 20px; /* Adjust the value to change the amount of rounding */
+    overflow: hidden; /* This ensures that the rounded corners are applied */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input[type="number"], button {
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
+.special-span{
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    width: 200px;
+    height: 30px;
+}
